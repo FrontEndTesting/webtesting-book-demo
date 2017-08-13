@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NonAngularJS</title>
+</head>
+<body>
+    <input type="button" id="mybutton" onclick="onClick()" value="Click Me"></input>
+    <script>
+        function onClick(){
+            setTimeout(onTimeoutShort, 1000);
+            setTimeout(onTimeoutLong, 3000);
+        };
+        function onTimeoutShort(){
+            var shortdiv = document.createElement('div');
+            shortdiv.id = 'shortdiv';
+            shortdiv.innerHTML = 'Implicit Wait';
+            document.body.appendChild(shortdiv);
+        };
+        function onTimeoutLong(){
+            var longdiv = document.createElement('div');
+            longdiv.id = 'longdiv';
+            longdiv.innerHTML = 'Explicit Wait';
+            document.body.appendChild(longdiv);
+        }
+    </script>
+    
+</body>
+</html>
