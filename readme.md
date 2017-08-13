@@ -45,6 +45,7 @@ karma start
 
 ## 如何购买《Web前端测试与集成-Jasmine、Selenium、Protractor和Jenkins最佳实践》一书
 ### [当当自营](http://product.dangdang.com/25138507.html)
+### [亚马逊](https://www.amazon.cn/dp/B074JS3LG9/)
 
 ## 书籍目录
 ### 基础篇
