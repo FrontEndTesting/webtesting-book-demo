@@ -1,5 +1,5 @@
 # 《Web前端测试与集成-Jasmine、Selenium、Protractor和Jenkins最佳实践》示例代码
-
+![](images/cover.jpg)
 
 ## 项目目录说明
 * Chapter10
